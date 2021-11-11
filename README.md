@@ -2,7 +2,7 @@
 Réalisation du premier défis du dev challenge, le 404 Not Found . 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{404 not found Code challenge}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -10,11 +10,11 @@ Réalisation du premier défis du dev challenge, le 404 Not Found .
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="http://www.404devchallenges.io.antoni-dumont.be/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/antozr/devchallenges-stapeOne">
       Solution
     </a>
     <span> | </span>
