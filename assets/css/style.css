@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .head{
@@ -43,11 +44,11 @@
     font-weight: 400;
     line-height: 180%;
     color: #4F4F4F;
-    margin: 30px 0 0 0 ;
+    margin: 30px 0 66px 0 ;
     width: 30ch;
 }
 .main__btn{
-    margin: 66px auto 114px 24px;
+    margin: 66px auto 114px 0px;
     font-family: 'Space Mono', monospace;
     font-size: 14px;
     text-transform: uppercase;
@@ -58,15 +59,103 @@
     text-decoration: none;
 }
 .foot{
-    width: 100%;
+    width: 100vw;
+    height: auto;
 
 }
 .foot__txt{
-    width: 287px;
+    width: calc(100vw - 46px);
     margin: 114px auto 24px 46px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     color:#BDBDBD ;
+}
+.foot__lien{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #333333;
+}
+@media (min-width:650px){
+    .head{
+        width: 100vw;
+        background-color: #ffffff50;
+        height: 40px;
+        position: fixed;
+    }
+    .main__img{
+        width: calc(100vw - 150px);
+
+        margin: 64px 5vw 60px;
+    }
+
+    .main__box{
+        margin: 0 0 66px 15vw;
+    }
+    .main__titre{
+        width: 15ch;
+    }
+    .main__txt{
+        margin: 30px 0 66px 0 ;
+        width: 45ch;
+    }
+    .main__btn{
+        margin: 66px auto 114px 0px;
+    }
+}
+@media (min-width:800px){
+    
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    .main__img{
+        width: 540px;
+        height: 450px;
+        margin: 200px 5vw 60px;
+    }
+    .main__box{
+        margin: 200px 0 66px 24px;
+    }
+    .main__titre{
+        width: 15ch;
+    }
+}
+
+@media (min-width : 1440px){
+    body{
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .head__titre{
+        margin: 20px auto 0 5vw;
+    }
+    .main__box{
+        margin: 200px 0 66px 24px;
+    }
+    .main__titre{
+        font-size:64px ;
+        width: 15ch;
+    }
+    .main__txt{
+        font-size: 24px;
+        width: 30ch;
+    }
+    .foot__txt{
+        width: calc(100vw - 46px);
+        margin: 114px auto 0 46px;
+    }
+}
+
+@media (min-width:1800px){
+    .main__box{
+        margin: 200px 0 66px 24px;
+    }
+    .main__img{
+        width: 540px;
+        height: 450px;
+        margin: 200px 10vw 60px;
+    }
 }
